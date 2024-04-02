@@ -10,14 +10,23 @@
 
 ## Directory Structure
 ```
+├── README.md
 ├── api
-│   ├── checkout
 │   └── product
+... ...
+│       └── const.go
+├── go.mod
+├── go.sum
 ├── http_client
+│   └── client.go
 ├── readme
+│   └── getproduct_result.png
 └── test_suites
-    ├── checkout
     └── product
+        ├── deleteProduct_test.go
+        ├── getProduct_test.go
+        └── postProduct_test.go
+        ... ...
 ```
 
 ## Getting started
