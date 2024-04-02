@@ -4,6 +4,18 @@
 Using Fakeapi Platzi as the testing data.
 - https://fakeapi.platzi.com/en/about/introduction/
 
+## Directory Structure
+```
+├── api
+│   ├── checkout
+│   └── product
+├── http_client
+├── readme
+└── test_suites
+    ├── checkout
+    └── product
+```
+
 ## Getting started
 Pls input the command before testing.
 ```
