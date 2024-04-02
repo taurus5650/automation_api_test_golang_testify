@@ -1,8 +1,12 @@
 # Testing Restful API with Golang Testify
 
 ## Testdata
-Using Fakeapi Platzi as the testing data.
-- https://fakeapi.platzi.com/en/about/introduction/
+### Purpose
+- For testing, which using
+  - Golang test
+  - Testify
+- Support testing
+  - Restful api testing (Testing resource : https://fakeapi.platzi.com/en/about/introduction/)
 
 ## Directory Structure
 ```
