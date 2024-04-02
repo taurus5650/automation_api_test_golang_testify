@@ -10,6 +10,8 @@
 
 ## Directory Structure
 ```
+git ls-tree -r --name-only HEAD | tree --fromfile
+
 ├── README.md
 ├── api
 │   └── product
