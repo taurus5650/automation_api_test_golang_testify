@@ -1,6 +1,6 @@
-module golang_rest_api_test
+module automation_api_test_golang_testify
 
-go 1.21.4
+go 1.21.5
 
 require github.com/stretchr/testify v1.9.0
 

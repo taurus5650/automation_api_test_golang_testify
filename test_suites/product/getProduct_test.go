@@ -1,12 +1,12 @@
-package product
+package product_test
 
 import (
+	UrlDomain "automation_api_test_golang_testify/api/product"
+	HttpClient "automation_api_test_golang_testify/http_client"
 	"errors"
 	"fmt"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	UrlDomain "golang_rest_api_test/api/product"
-	HttpClient "golang_rest_api_test/http_client"
 	"net/http"
 	"testing"
 	"time"
