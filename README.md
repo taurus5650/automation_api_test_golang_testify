@@ -12,11 +12,16 @@
 ```
 git ls-tree -r --name-only HEAD | tree --fromfile
 
+.
+├── .gitignore
 ├── README.md
 ├── api
-│   └── product
-... ...
+│   ├── product
+│   │   └── const.go
+│   └── users
 │       └── const.go
+├── deployments
+│   └── Dockerfile
 ├── go.mod
 ├── go.sum
 ├── http_client
@@ -24,10 +29,13 @@ git ls-tree -r --name-only HEAD | tree --fromfile
 ├── readme
 │   └── getproduct_result.png
 └── test_suites
-    └── product
-        ├── deleteProduct_test.go
-        ├── getProduct_test.go
-        └── postProduct_test.go
+    ├── product
+    │   ├── deleteProduct_test.go
+    │   ├── getProduct_test.go
+    │   └── postProduct_test.go
+    └── users
+        └── isAvailable_test.go
+
         ... ...
 ```
 
